@@ -4,23 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Darepen/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/" alt="JJMP" width="130" height="130">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork 3</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This is what I did for my Seatwork 3 in Web Design Lab. :-)
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Darepen/WD-Seatwork3)
 
 ---
 
@@ -61,22 +61,27 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+This is my Seatwork 3 for Web Design Lab
 - Whats the purpose
+The purpose of this Seatwork 3 is to demonstrate my current progress in the Web Design course.
 - What are key components
+This project showcases how I can create a 5 static and animated headers and footers, respectively.
 - What technology used and how it is used
+I only used html and an external css in creating this webpage. 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Static Headers
+- Animated Headers
+- Static Footers
+- Animated Footers
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -96,8 +101,6 @@ WD-ProjectName
 |   |   └─ style.css
 |   └─ img
 |   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
 └─ pages
 |  └─ pageName
 |     └─ assets
@@ -105,8 +108,6 @@ WD-ProjectName
 |     |  |  └─ style.css
 |     |  └─ img
 |     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
 |     └─ index.html
 └─ index.html
 └─ readme.md
@@ -117,4 +118,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| | | |
