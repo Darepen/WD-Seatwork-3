@@ -1,67 +1,130 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
+}
+
+h1, h3 {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.company-logo {
+    width: 50px;
+    height: 50px;
+}
+
 header {
-    background-color: #333;
-    color: white;
-    padding: 1rem 0;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav .btn {
-    display: inline-block;
-    margin: 1rem;
-    padding: 0.5rem 1rem;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-nav .btn:hover {
-    background-color: #0056b3;
-}
-
-main {
-    padding: 2rem;
-}
-
-section {
-    margin-bottom: 2rem;
-}
-
-section h2 {
-    color: #333;
-}
-
-.gallery {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
-.gallery a {
+header.design-one, header.design-one-animation,
+header.design-two, header.design-two-animation,
+header.design-three, header.design-three-animation,
+header.design-four, header.design-four-animation,
+header.design-five, header.design-five-animation {
+    transition: all 0.3s ease;
+}
+
+.navigation {
+    display: flex;
+    gap: 15px;
+}
+
+.navigation-content, .nav-button {
+    padding: 5px 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.call-to-action {
+    background-color: yellow;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.design-one-animation:hover, .design-two-animation:hover,
+.design-three-animation:hover, .design-four-animation:hover,
+.design-five-animation:hover {
+    transform: scale(1.05);
+}
+
+.navigation-content:hover, .nav-button:hover {
+    color: blue;
+    transform: translateY(-5px);
+}
+
+.pop-up {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pop-up h1 {
+    display: none;
+}
+
+.design-two-animation:hover .pop-up h1 {
     display: block;
-    width: 150px;
-    padding: 1rem;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
 }
 
-.gallery a:hover {
-    background-color: #0056b3;
+.design-three-animation .navigation-content.red {
+    color: red;
+}
+
+.design-three-animation .navigation-content.green {
+    color: green;
+}
+
+.design-three-animation .navigation-content.blue {
+    color: blue;
+}
+
+.design-three-animation .navigation-content.violet {
+    color: violet;
+}
+
+.socials h3 {
+    display: none;
+}
+
+.design-four-animation .socials:hover h3 {
+    display: inline-block;
+}
+
+.bubbles {
+    position: absolute;
+    width: 20px;
+    animation: float 4s infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+.bubble1 {
+    top: 10%;
+    left: 10%;
+    animation-duration: 3s;
+}
+
+.bubble2 {
+    top: 20%;
+    left: 20%;
+    animation-duration: 4s;
+}
+
+.bubble3 {
+    top: 30%;
+    left: 30%;
+    animation-duration: 5s;
 }
