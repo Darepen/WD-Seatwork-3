@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/Darepen/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/" alt="JJMP" width="130" height="130">
+    <img src="./assets/video/BESTLOGOEVER.gif" alt="HUH?" width="auto" height="200">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 3</h3>
