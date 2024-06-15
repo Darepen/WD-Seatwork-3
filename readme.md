@@ -72,11 +72,11 @@ I only used html and an external css in creating this webpage.
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website
-- Static Headers
-- Animated Headers
-- Static Footers
-- Animated Footers
+- Header Animation
+  - Hover Effect
+  - Active Effect
+  - Multi Layer Domino Effect
+  - Not Effect
 
 ### Technology
 <!-- TODO: List of Technology Used -->
