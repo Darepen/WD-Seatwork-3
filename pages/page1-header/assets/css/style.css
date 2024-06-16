@@ -29,13 +29,15 @@ body {
   .nav-wrapper {
     display: flex;
     align-items: center;
-    gap: 10px; /* Adjust gap as needed */
+    gap: 10px;
     margin: 20px;
   }
 
   .back-button {
     display: inline-block;
     margin: 10px;
+    cursor: pointer;
+    size: 35px;
   }
 
   .back-button img {
