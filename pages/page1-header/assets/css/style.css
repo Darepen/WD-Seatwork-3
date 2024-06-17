@@ -1,21 +1,21 @@
 body {
     font-family: Arial, sans-serif;
   }
-
+  
   h1, h3 {
     text-align: center;
   }
-
+  
   a {
     text-decoration: none;
     color: inherit;
   }
-
+  
   .company-logo {
-    width: 50px;
+    width: auto;
     height: 50px;
   }
-
+  
   header {
     display: flex;
     justify-content: space-between;
@@ -25,36 +25,77 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
   }
-
+  
   .nav-wrapper {
     display: flex;
     align-items: center;
     gap: 10px;
     margin: 20px;
   }
-
+  
   .back-button {
     display: inline-block;
     margin: 10px;
     cursor: pointer;
     size: 35px;
   }
-
+  
   .back-button img {
     width: 35px;
     height: auto;
     transition: transform 0.3s ease;
   }
-
+  
   .back-button img:hover {
     transform: scale(1.1);
   }
-
+  
   .home-link {
     font-size: 16px;
     color: #000;
   }
-
+  
+  .navigation {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navigation-content, .nav-button {
+    padding: 5px 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .call-to-action {
+    background-color: yellow;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .search-input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .search-button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
   header.design-one, header.design-one-animation,
   header.design-two, header.design-two-animation,
   header.design-three, header.design-three-animation,
@@ -62,74 +103,59 @@ body {
   header.design-five, header.design-five-animation {
     transition: all 0.3s ease;
   }
-
-  .navigation {
-    display: flex;
-    gap: 15px;
-  }
-
-  .navigation-content, .nav-button {
-    padding: 5px 10px;
-    transition: color 0.3s ease, transform 0.3s ease;
-  }
-
-  .call-to-action {
-    background-color: yellow;
-    padding: 5px 10px;
-    border-radius: 5px;
-  }
-
+  
   .design-one-animation:hover, .design-two-animation:hover,
   .design-three-animation:hover, .design-four-animation:hover,
   .design-five-animation:hover {
     transform: scale(1.05);
   }
-
+  
   .navigation-content:hover, .nav-button:hover {
     color: blue;
     transform: translateY(-5px);
   }
-
+  
   .pop-up {
     display: flex;
     align-items: center;
     gap: 10px;
   }
-
+  
   .pop-up h1 {
     display: none;
   }
-
+  
   .design-two-animation:hover .pop-up h1 {
     display: block;
   }
-
+  
   .design-three-animation .navigation-content.red {
     color: yellow;
   }
-
+  
   .design-three-animation .navigation-content.green {
     color: brown;
   }
-
+  
   .design-three-animation .navigation-content.blue {
     color: purple;
   }
-
+  
   .design-three-animation .navigation-content.violet {
     color: pink;
   }
-
+  
   .socials h3 {
     display: none;
   }
-
+  
   .design-four-animation .socials:hover h3 {
     display: inline-block;
   }
-
+  
   @keyframes float {
     0% { transform: translateY(0); }
     50% { transform: translateY(-20px); }
     100% { transform: translateY(0); }
   }
+  
